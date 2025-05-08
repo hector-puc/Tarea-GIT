@@ -16,7 +16,7 @@ if respuesta1 == 1:
                 print("Correcto, ahora preparate para la ultima prueba")
                 prueba3 = int(input("¿Que numero del 1 al 10 tiene la misma cantidad de letras que el numero que representa? (¡RESPONDE CON UN NUMERO O TU PC MORIRA!)"))
                 if prueba3 == 5:
-                    print("¡¿Acertaste?!, imposible!")
+                    print("¡¿Acertaste?!, ¡imposible!")
                     print("Virus eliminado, PC salvado, pero no has salvado calculo 1 ya que usaste tiempo valioso en eliminar el virus")
                     X = random.randint(1,7)
                     if X >= 4:
